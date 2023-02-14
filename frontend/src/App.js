@@ -4,7 +4,7 @@ import PaymentButton from "./components/PaymentButton";
 function App() {
   return (
     <div className="App">
-      <PaymentButton paymentId='payment-id' amount={1000000}>Pay</PaymentButton>
+      <PaymentButton paymentId='my-payment-id' amount={1000000}>Pay</PaymentButton>
     </div>
   );
 }
